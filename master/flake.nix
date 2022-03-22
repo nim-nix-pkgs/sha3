@@ -1,5 +1,5 @@
 {
-  description = ''sha3 - cryptographic hash function'';
+  description = ''sha3 library'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,7 +9,7 @@
   
   inputs.src-sha3-master.flake = false;
   inputs.src-sha3-master.owner = "narimiran";
-  inputs.src-sha3-master.ref   = "refs/heads/master";
+  inputs.src-sha3-master.ref   = "master";
   inputs.src-sha3-master.repo  = "sha3";
   inputs.src-sha3-master.type  = "github";
   
